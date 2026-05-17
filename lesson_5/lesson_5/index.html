@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/fonts.css">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<title>Lesson 5</title>
+</head>
+<body>
+<!-- ================= GENERAL PART ================= -->
+	<h2>Block and Inline Elements</h2>
+	<div class="block">
+		Block elements start on a new line and usually take up the full available width.
+	</div>
+	<span class="inline">
+		Inline elements only take up as much width as their content requires.
+	</span>
+<!-- ================= PADDING : BLOCK ELEMENTS ================= -->
+ 	<h2>Padding in Block Elements</h2>
+	<div class="block-element">
+		<div class="block-padding-example-1">Padding: one value</div>
+		<div class="block-padding-example-2">Padding: two values</div>
+		<div class="block-padding-example-3">Padding: three values</div>
+		<div class="block-padding-example-4">Padding: four values</div>	
+		<div class="block-padding-example-5">
+			<div class="block-padding-top">padding-top property</div>
+			<div class="block-padding-right">padding-right property</div>
+			<div class="block-padding-bottom">padding-bottom property</div>
+			<div class="block-padding-left">padding-left property</div>
+		</div>
+		<div class="block-padding-example-6">	Padding in percentages
+		</div>
+	</div>
+<!-- ================= PADDING : INLINE ELEMENTS ================= -->
+	<h2>Padding in Inline Elements</h2>
+	<div class="inline-element">
+		<div>
+			<span class="inline-padding-example-1">Padding: one value</span>
+		</div>
+		<div>		
+			<span class="inline-padding-example-2">Padding: two values</span>
+		</div>
+		<div>
+			<span class="inline-padding-example-3">Padding: three values</span>
+		</div>
+		<div>
+			<span class="inline-padding-example-4">Padding: four values</span>
+		</div>
+		<div class="inline-padding-example-5">
+			<div>
+				<span class="inline-padding-top">padding-top property</span>
+			</div>
+			<div>
+				<span class="inline-padding-right">padding-right property</span>
+			</div>
+			<div>
+				<span class="inline-padding-bottom">padding-bottom property</span>
+			</div>
+			<div>
+				<span class="inline-padding-left">padding-left property</span>
+			</div>
+		</div>
+		<div>	
+			<span class="inline-padding-example-6">Padding in percentages</span>
+		</div>
+		<div>	
+			<span class="inline-padding-example-7">adding in percentages (extended example)</span>
+		</div>
+	</div>
+	<!-- ================= PADDING : INLINE-BLOCK ELEMENTS ================= -->
+	<h2>Padding in Inline-Block Elements</h2>
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class=" inline-block-padding-example-1">
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-padding-example-2">
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-padding-example-3">
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-padding-example-4">
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-padding-example-5">
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-padding-example-6">
+<!-- ================= MARGIN : BLOCK ELEMENTS ================= -->
+	<div class="block-margin-example-1">Margin: one value</div>
+	<div class="block-margin-example-2">Margin: two values</div>
+	<div class="block-margin-example-3">Margin: three values</div>
+	<div class="block-margin-example-4">Margin: four values</div>	
+	<div class="block-margin-example-5">
+		<div class="block-margin-top">margin-top property</div>
+		<div class="block-margin-right">margin-right property</div>
+		<div class="block-margin-bottom">margin-bottom property</div>
+		<div class="block-margin-left">margin-left property</div>
+	</div>
+	<!-- ================= NEGATIVE MARGIN ================= -->
+	<h2>Negative Margin</h2>
+		<div class="block-negative-margin-example-6">
+			<div class="block-negative-margin-left">Negative margin-left</div>
+			<div class="block-negative-margin-right">Negative margin-right</div>
+			<div class="block-negative-margin-top">Negative margin-top</div>
+			<div class="block-negative-margin-bottom">Negative margin-bottom</div>
+	</div>
+<!-- ================= MARGIN IN PERCENTAGES ================= -->
+	<h2>Margin in Percentages</h2>
+	<div class="block-margin-example-7">Percentage-based margin example</div>
+<!-- ================= MARGIN COLLAPSE ================= -->
+	<h2>Margin Collapse (Margin Collapsing Effect)</h2>
+	<div class="block-margin-call">First block element (margin example)</div>
+	<div class="block-margin-call">Second block element (margin example)</div>
+	<span class="inline-margin-call">Inline element margin example (no collapse effect)</span>
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="inline-block-margin-call">
+<!-- ================= PARENT ELEMENT INDENT ================= -->
+	<h2>Why It Is Better to Set Indents on the Parent Element</h2>
+	<div class="hanging-indent-example">
+		<p>Paragraph with parent indentation.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+		<p>Paragraph with parent indentation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+		<p>Paragraph with parent indentation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+	</div>
+		<div class="hanging-indent-example-2">
+		<p>PParagraph with alternative indentation example. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+		<p>Paragraph with alternative indentation example. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+		<p>Paragraph with alternative indentation example. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias voluptate sunt, quo autem cupiditate fuga omnis necessitatibus nostrum vel expedita, ab nisi, esse eius totam deleniti illo in repudiandae. Hic illo, itaque unde fugit, iste eveniet porro culpa, consectetur amet quasi tempore at accusamus!</p>
+	</div>
+<!-- ================= WIDTH ================= -->
+ <h2>Width Property</h2>
+	<div class="width-example-1">
+		Width: 500px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="width-example-2">
+		Max-width: 500px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="width-example-3">
+		Min-width: 400px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="width-example-4">
+		Width: percentage (70%). Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+<!-- ================= AUTO VS 100% WIDTH ================= -->
+   <h2>Auto vs 100% Width</h2>
+	<div class="width-example-5">
+		Width: auto (with left margin for comparison)
+	</div>
+	<div class="width-example-6">
+		Width: 100% (with left margin for comparison)
+	</div>
+<!-- ================= HEIGHT ================= -->
+	<h2>Height Property</h2>
+	<div class="height-example-1">
+		Height: 200px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="height-example-2">
+		Min-height: 50px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="height-example-3">
+		Max-height: 100px. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="height-example-4">
+		Height: percentage (70%). Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="height-example-5">
+		Min-height: percentage (50%). Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="height-example-last">
+		Fixed height example. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+<!-- ================= WIDTH & HEIGHT : INLINE ELEMENTS ================= -->
+	<h2>Width & Height in Inline Elements</h2>
+	<span class="width-height-inline-example">
+		Inline element (width & height do not work as expected). Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque porro repellat vitae deserunt? Iste totam nam quia dicta blanditiis maxime, quasi odio, possimus dolore ad harum consectetur cumque distinctio numquam mollitia quam sunt vero aliquid.
+	</span>
+<!-- ================= WIDTH & HEIGHT : INLINE-BLOCK ELEMENTS ================= -->
+	<h2>Width & Height in Inline-Block Elements</h2>
+	<div>
+		<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="width-height-inline-block-example">
+	</div>
+	<!-- ================= BOX-SIZING ================= -->
+	<h2>Box-Sizing Property</h2>
+	<div class="box-sizing-example-1">
+		box-sizing: content-box (default behavior). Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="box-sizing-example-2">
+		box-sizing: border-box (includes padding and border in width).Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+<!-- ================= OVERFLOW ================= -->
+	<h2>Overflow Property</h2>
+	<div class="overflow-example-1">
+		overflow: visible (default). Content can go outside the box. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="overflow-example-2">
+		overflow: hidden. Extra content is clipped. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="overflow-example-3">
+		overflow: clip. Content is strictly clipped. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="overflow-example-4">
+		overflow: scroll. Scrollbars are always visible. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, doloremque, rem optio dolor at officia! Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique eum nemo corrupti assumenda quas nulla vel consequatur. Hic sequi blanditiis quod quas laudantium eligendi maxime, sint qui? Ex eaque eligendi, animi est molestias quam, placeat corrupti natus magni illum expedita perferendis libero laudantium vero?
+	</div>
+	<div class="overflow-example-5">
+		overflow: auto. Scrollbars appear only when needed. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nihil a accusamus ipsum iste dolorem quas possimus sapiente, 
+	</div>
+	<!-- ================= OVERFLOW-X & OVERFLOW-Y ================= -->
+	<h2>Overflow X and Overflow Y</h2>
+	<div class="overflow-x-example">
+	Horizontal overflow example (overflow-x: scroll). Lorem ipsum dolor sit amet consectetur adipisicing elit...
+	</div>
+	<div class="overflow-y-example">
+	Vertical overflow example (overflow-y: scroll)
+	</div>
+<!-- ================= VERTICAL-ALIGN ================= -->
+<h2>Vertical Align Property</h2>
+<div>
+	<span> Text aligned with image using vertical-align property. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel eligendi harum, ab error deleniti accusantium aperiam optio consequuntur ipsam. Sed, ipsam. Ipsam quaerat quia repudiandae quod recusandae ducimus ipsum nostrum reprehenderit dolores distinctio eveniet sapiente ut repellat, dignissimos nobis fugit consequuntur laboriosam aliquid corporis.</span>
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="vertical-align-example-2">
+</div>
+<div>
+	<span> Another example of vertical alignment with image. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel eligendi harum, ab error deleniti accusantium aperiam optio consequuntur ipsam. Sed, ipsam. Ipsam quaerat quia repudiandae quod recusandae ducimus ipsum nostrum reprehenderit dolores distinctio eveniet sapiente ut repellat, dignissimos nobis fugit consequuntur laboriosam aliquid corporis.</span>
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="vertical-align-example-1">
+</div>
+<div>
+	<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel eligendi harum, ab error deleniti accusantium aperiam optio consequuntur ipsam. Sed, ipsam. Ipsam quaerat quia repudiandae quod recusandae ducimus ipsum nostrum reprehenderit dolores distinctio eveniet sapiente ut repellat, dignissimos nobis fugit consequuntur laboriosam aliquid corporis.</span>
+	<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="vertical-align-example-2">
+</div>
+<!-- ================= DISPLAY PROPERTY ================= -->
+	<h2>Display Property</h2>
+<div class="display-block">Display: block example. Block elements take full width and start on a new line.</div>
+<span class="display-block pink">This span is changed to display: block. It behaves like a block element now.</span>
+<div class="display-inline">
+	Display: inline example (element behaves like inline).
+</div>
+<div class="display-none">
+	This element is hidden using display: none.
+</div>
+<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="display-inline-block">
+<span>Inline text used for comparison with images and block elements.</span>
+<img src="./img/bad-omens-album-poster.png" alt="Bad Omens Album Poster" class="display-block image">
+<!-- ================= LINK DISPLAY INLINE-BLOCK ================= -->
+<h2>Link Element</h2>
+<a href="#" class="link">This is a link styled as inline-block element</a>	
+<!-- ================= BLOCK CENTERING ================= -->
+<h2>Block Centering</h2>
+<div class="block-centering-example-1">Centered block element using margin: 0 auto</div>
+<div class="block-centering-example-2">Centered block element with top and bottom margins + auto centering</div>
+<!-- ================= PRACTICE ================= -->
+<div class="banner-card">
+	<p class="card-tag">New Arrival</p>
+	<h1 class="card-title">Discover Our<br>New Collection</h1>
+	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+	<a href="#" class="card-button">Buy Now</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,563 @@
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+}
+h2 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 900;
+   font-size: 50px;
+   margin-top: 100px;
+   margin-bottom: 20px;
+}
+
+.block {
+   background-color: #422a5d;
+}
+
+.inline {
+   background-color: #466332;
+} 
+
+/* ================= PADDING : BLOCK ELEMENTS ================= */
+
+.block-padding-example-1 {
+   padding: 20px;
+   background-color: #0000ff;
+}
+
+.block-padding-example-2 {
+   padding: 10px 20px;
+   background-color: #008000;                        
+}  
+
+.block-padding-example-3 {
+   padding: 10px 20px 30px;  
+   background-color: #dc143c; 
+}
+
+.block-padding-example-4 {
+   padding: 10px 20px 30px 40px;
+   background-color: #b8860b;          
+}
+
+.block-padding-example-5 {
+   padding: 10px;
+   background-color: #000000;
+}
+
+.block-padding-top {
+   padding-top: 25px;
+   background-color: #a9a9a9;
+}
+
+.block-padding-right {
+   padding-right: 50px;
+   background-color: #add8e6;  
+}
+
+.block-padding-bottom {
+   padding-bottom: 100px;
+   background-color: #f08080;
+
+}
+
+.block-padding-left {
+   padding-left: 125px; 
+   background-color: #20b2aa;
+}
+
+.block-padding-example-6 {
+   padding-left: 80%;
+   padding-top: 20%;
+} 
+
+/* ================= PADDING : INLINE ELEMENTS ================= */
+
+.inline-element > div {
+   margin: 100px 0;
+}
+
+.inline-padding-example-1 {
+   padding: 20px;
+   background-color: #0000ff;
+}
+
+.inline-padding-example-2 {
+   padding: 10px 20px;
+   background-color: #008000;                        
+}  
+
+.inline-padding-example-3 {
+   padding: 10px 20px 30px;  
+   background-color: #dc143c; 
+}
+
+.inline-padding-example-4 {
+   padding: 10px 20px 30px 40px;
+   background-color: #b8860b;          
+}
+
+.inline-padding-example-5 {
+   padding: 10px;
+   background-color: #000000;   
+}
+
+.inline-padding-example-5 > div {
+   margin: 100px 0;
+}
+
+.inline-padding-top {
+   padding-top: 25px;
+   background-color: #a9a9a9;
+}
+
+.inline-padding-right {
+   padding-right: 50px;
+   background-color: #add8e6;  
+}
+
+.inline-padding-bottom {
+   padding-bottom: 25px;
+   background-color: #f08080;
+}
+
+.inline-padding-left {
+   padding-left: 125px; 
+   background-color: #20b2aa;
+}
+
+.inline-padding-example-6 {
+   padding-left: 80%;
+} 
+
+.inline-padding-example-7 {
+   padding-right: 80%;
+   background-color: #00ff00  ;
+   line-height: 23px;
+} 
+
+/* ================= PADDING : INLINE-BLOCK ELEMENTS ================= */
+
+.inline-block-padding-example-1 {
+   padding-top: 20px;
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-bottom: 20px;
+   background-color: #800000;
+}
+
+.inline-block-padding-example-2 {
+   padding: 20px;
+   background-color: #808000;
+}
+
+.inline-block-padding-example-3 {
+   padding: 20px 30px;
+   background-color: #000080;
+}
+
+.inline-block-padding-example-4 {
+   padding: 20px 30px 40px;
+   background-color: #ffa500;
+} 
+
+.inline-block-padding-example-5 {
+   padding: 20px 30px 40px 50px;
+   background-color: #800080;
+}  
+
+.inline-block-padding-example-6 {
+   padding: 10%;
+   background-color: #008080;
+}
+
+/* ================= MARGIN : BLOCK ELEMENTS ================= */
+
+.block-margin-example-1 {
+   margin: 20px;
+   background-color: #0000ff;
+}
+
+.block-margin-example-2 {
+   margin: 40px 20px;
+   background-color: #008000;                        
+}  
+
+.block-margin-example-3 {
+   margin: 80px 20px 30px;  
+   background-color: #dc143c; 
+}
+
+.block-margin-example-4 {
+   margin: 60px 20px 30px 40px;
+   background-color: #b8860b;          
+}
+
+.block-margin-example-5 {
+   background-color: #000000;
+}
+
+.block-margin-top {
+   margin-top: 60px;
+   background-color: #a9a9a9;
+}           
+
+.block-margin-right {
+   margin-right: 50px;
+   background-color: #add8e6;  
+}
+
+.block-margin-bottom {
+   margin-bottom: 100px;
+   background-color: #f08080;
+}
+
+/* ================= NEGATIVE MARGIN ================= */
+
+.block-negative-margin-example-6 {
+   padding: 20% 0;
+}
+
+.block-negative-margin-example-6 > div {
+   padding: 20px;
+}
+
+.block-margin-left {
+   margin-left: 125px; 
+   background-color: #20b2aa;
+}
+
+.block-negative-margin-top {
+   margin-top: -35px;
+   color: #ffffff;
+   background-color: #ffb6c1;
+}
+
+.block-negative-margin-right {
+   margin-right: -50px;
+   background-color:#b0c4de;  
+}
+
+.block-negative-margin-bottom {
+   margin-bottom: -50px;
+   background-color: #ffffe0  ;
+
+}
+
+.block-negative-margin-left {
+   margin-left: -20px; 
+   background-color: #e0ffff;
+}
+
+/* ================= MARGIN IN PERCENTAGES ================= */
+
+.block-margin-example-7 {
+   margin-left: 80%;
+   margin-top: 20%;
+   background-color: #9a5a5a;
+}
+
+/* ================= MARGIN COLLAPSE ================= */
+
+.block-margin-call {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   background-color: #f72525;
+}
+
+.inline-margin-call {
+   margin: 20px;
+   background-color: #885656;
+}
+
+.inline-block-margin-call {
+   margin: 20px;
+}
+
+/* ================= PARENT ELEMENT INDENT ================= */
+
+.hanging-indent-example {
+background-color: #f72525;
+}
+
+.hanging-indent-example p {
+   margin-bottom: 20px;
+}
+
+.hanging-indent-example-2 {
+background-color: #2e3283;
+margin-bottom: 20px;
+}
+
+/* ================= WIDTH ================= */
+
+.width-example-1 {
+   width: 500px;
+   background-color: #c78c8c;
+}
+
+.width-example-2 {
+   max-width: 500px;
+   background-color: #791b1b;
+}
+
+.width-example-3 {
+   min-width: 400px;
+   background-color: #c40a0a;
+}
+
+.width-example-4 {
+   width: 70%;
+   background-color: #25f768;
+}
+
+/* ================= AUTO VS 100% WIDTH ================= */
+
+
+.width-example-5 {
+   width: auto;
+   margin-left: 30px;
+   background-color: #616d61;
+}
+
+.width-example-6 {
+   width: 100%;
+   margin-left: 30px;
+   background-color: #1b1b1b;
+}
+
+/* ================= HEIGHT ================= */
+
+.height-example-1 {
+   height: 200px;
+   background-color: #c78c8c;
+}
+
+.height-example-2 {
+   min-height: 50px;
+   background-color: #791b1b;
+}
+
+.height-example-3 {
+   max-height: 100px;
+   background-color: #c40a0a;
+}  
+
+.height-example-4 {
+   height: 70%;
+   background-color: #5c7a66;
+}
+
+.height-example-5 {
+   min-height: 50%;
+   background-color: #4a5470;
+}
+
+.height-example-last {
+   height: 20px;
+   margin-bottom: 50px;
+   background-color: #25f768;    
+}
+
+/* ================= WIDTH & HEIGHT : INLINE ELEMENTS ================= */
+
+.width-height-inline-example {
+   width: 2000px;
+   width: 1000%;
+   max-width: 300px;
+   height: 100px;
+   min-height: 100%;
+}
+
+/* ================= WIDTH & HEIGHT : INLINE-BLOCK ELEMENTS ================= */
+
+.width-height-inline-block-example {
+   width: 500px;
+   height: 500px;
+}
+
+/* ================= BOX-SIZING ================= */
+
+.box-sizing-example-1 {
+   box-sizing: content-box;
+   margin-left: 50px;
+   width: 200px;
+   background-color: #ffe4c4;
+}
+
+.box-sizing-example-2 {
+   box-sizing: border-box;
+   margin-left: 50px;
+   width: 200px;
+   background-color: #deb887;
+}
+
+/* ================= OVERFLOW ================= */
+
+.overflow-example-1 {
+   padding: 10px;
+   max-height: 20px;
+   overflow: visible;
+   margin-bottom: 100px;
+   background-color: #ff0000;
+}
+
+.overflow-example-2 {
+   padding: 10px;
+   max-height: 20px;
+   overflow: hidden;
+   background-color: #bebe38;
+}
+
+.overflow-example-3 {
+   padding: 10px;
+   max-height: 20px;
+   overflow: clip;
+   background-color: #0000ff;
+}
+
+.overflow-example-4 {
+   padding: 10px;
+   max-height: 20px;
+   overflow: scroll;
+   background-color: #00ff00;
+}
+
+.overflow-example-5 {
+   padding: 10px;
+   max-height: 50px;
+   overflow: auto;
+   background-color: #ff00ff;
+}
+
+/* ================= OVERFLOW-X & OVERFLOW-Y ================= */
+
+.overflow-x-example {
+   width: 300px;
+   overflow-x: scroll;
+   white-space: nowrap;
+   background-color: #add8e6;
+}
+
+.overflow-y-example {
+   height: 50px;
+   overflow-y: scroll;
+   background-color: #90ee90;
+}
+
+/* ================= VERTICAL-ALIGN ================= */
+
+.vertical-align-example-1 {
+   vertical-align: bottom;
+   width: 200px;
+   height: 200px;
+}
+
+.vertical-align-example-2 {
+   vertical-align: middle;
+   width: 200px;
+   height: 200px;
+}
+
+/* ================= DISPLAY PROPERTY ================= */
+
+.display-block {
+   display: block;
+   width: 200px;
+   margin: 20px;
+   padding: 20px;
+   background-color: #ff0000;
+}
+
+.pink {
+   background-color: #ffc0cb  ;
+}
+
+.display-inline-block {
+   width: 200px;
+   height: 200px;
+}
+
+.display-inline {
+   display: inline;
+   background-color: #ffa500;
+}
+
+.display-none {
+   display: none;
+}
+
+.image {
+   width: 200px;
+   height: 200px;
+   display: block;
+}
+
+/* ================= LINK DISPLAY INLINE-BLOCK ================= */
+
+.link {
+   display: inline-block;
+}
+
+/* ================= BLOCK CENTERING ================= */
+
+.block-centering-example-1 {
+   max-width: 200px;
+   margin: 0 auto;
+   background-color: #a47e7e;
+}
+
+.block-centering-example-2 {
+   max-width: 200px;
+   margin:50px auto 20px;
+   background-color: #86a47e;
+}
+
+/* ================= PRACTICE ================= */
+
+.banner-card {
+   width: 643px;
+   padding: 62px 41px 37px;
+   background-color: #FFF3E3;
+   border-radius: 10px;
+}
+
+.card-tag {
+   margin-bottom: 4px;
+   font-weight: 600;
+   letter-spacing: 3px;
+}
+
+.card-title {
+   margin: 0 0 17px;
+   font-size: 52px;
+   font-weight: 700;
+   line-height: 65px;
+   color: #B88E2F;
+}
+
+.card-text {
+   width: 546px;
+   margin: 0 0 36px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+.card-button {
+   padding: 25px 72px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   background-color: #B88E2F;
+   color: #fff;
+}
+
+
+
+
+
+
